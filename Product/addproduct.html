@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD PRODUCTS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <br><br><br>
+    <h1 class="container heading">ADD PRODUCTS</h1>
+    <div class="main container border ">
+        <label for="inputPassword5" class="form-label">Item name</label>
+        <input type="text" id="itemname" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <label for="inputPassword5" class="form-label">Discribtion</label>
+        <input type="text" id="itemDiscribtion" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <label for="inputPassword5" class="form-label">Catagory</label>
+        <input type="text" id="itemcatagory" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+     
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <label for="inputPassword5" class="form-label">Prize</label>
+        <input type="number" id="itemprize" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <label for="inputPassword5" class="form-label">Image</label>
+        <input type="file" id="itemimage" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+        </div>
+        <div class="imgOutputDiv">
+            <img src="../images/e71566dada523db52dc177bf0d0038a9.avif" alt="" id="imgOutput">
+        </div>
+        
+        
+        
+        <br><br>
+    <div class=" d-grid gap-2">
+        <button class="btn btn-primary" id="additem" type="button">ADD ITEM</button>
+    </div><br>
+    <div class=" d-grid gap-2">
+        <button class="btn btn-primary" id="homebtn" type="button">HOME</button>
+    </div>
+    </div>
+    <br><br><br>
+    <section id="food-menu">
+
+     
+        
+    </section>
+
+<div id="popy" class="container popy">
+    <div class="mainpop">
+        
+        <ion-icon onclick="cba()" name="close-outline" class="clossicon"></ion-icon>
+            <input placeholder="item name" type="text">
+            <input placeholder="Discribtion"  type="text">
+            
+            <input placeholder="Catagory" type="text">
+            <input for="editimg" placeholder="Prize" type="number">
+            <input  type="file">
+            <div class="editimage">
+                <div class="imgbody">
+                    <img id="editimg" src="../images/soppressata-pizza-with-calabrian-chile-hot-honey-FT-RECIPE0422-827abb3537834dbcb6ab0bbd6efece39.webp" alt="">
+                </div>
+            </div>
+            <div class=" d-grid gap-2">
+                <button class="btn btn-primary" onclick="cba()" id="Updatebtn" type="button">UPDATE</button>
+            </div>
+
+
+
+      
+    </div>
+
+
+
+
+</div>
+
+
+
+   
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

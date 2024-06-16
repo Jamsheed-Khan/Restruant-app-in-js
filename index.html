@@ -1,0 +1,230 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restraunt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#food">Category</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonial</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                
+                <li id="logoutbtn" class="logoutbtn"><a href="">logout</a></li>
+                <li><span><ion-icon class="cart-icon" name="cart-sharp"></ion-icon></span><span class="val">0</span></li>
+                <li><ion-icon class="usericon" onclick="userdata()" name="person-circle-sharp"></ion-icon></li>
+            </ul>
+            <h1 class="logo">Restraunt</h1>
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            
+            <h1 class="main-title" id="home">If you want to add your Restraunt Food click on Register</h1>
+            <h1 class="main-title" id="home">Eat Right Food</h1>
+            <p>Eat Healty, it is good for our health.</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>We've beem making healthy food last for 10 years</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ab
+                    eos omnis, nobis dignissimos perferendis et officia architecto,
+                    fugiat possimus eaque qui ullam excepturi suscipit aliquid optio,
+                    maiores praesentium soluta alias asperiores saepe commodi
+                    consequatur? Perferendis est placeat facere aspernatur!
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>Types of food</h2>
+        <div class="food-container container">
+            <div class="food-type fruite">
+                <div class="img-container">
+                    <img src="./images/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.webp" alt="error" />
+                    <div class="img-content">
+                        <h3>Burgers</h3>
+                        <a href="https://en.wikipedia.org/wiki/History_of_the_hamburger" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="./images/soppressata-pizza-with-calabrian-chile-hot-honey-FT-RECIPE0422-827abb3537834dbcb6ab0bbd6efece39.webp" alt="error" />
+                    <div class="img-content">
+                        <h3>Pizzas</h3>
+                        <a href="https://en.wikipedia.org/wiki/Pizza" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grin">
+                <div class="img-container">
+                    <img src="./images/e71566dada523db52dc177bf0d0038a9.avif" alt="error" />
+                    <div class="img-content">
+                        <h3>Sandwich</h3>
+                        <a href="https://en.wikipedia.org/wiki/Sandwich" class="btn btn-primary" target="blank">learn
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+      
+    </section>
+    <section id="testimonials">
+        <h2 class="testimonial-title">What Our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+                        <p class="customer-name">Ross Lee</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+                        <p class="customer-name">Amelia Watson</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+                        <p class="customer-name">Ben Roy</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit
+                    voluptas cupiditate aspernatur odit doloribus non.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <sectRegister"contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+            </div>
+
+            <div class="form-container" >
+                <h2 id="contacts">Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+      
+        <div class="main">
+            <div class="data">
+                <img class="userimg" src="./images/soppressata-pizza-with-calabrian-chile-hot-honey-FT-RECIPE0422-827abb3537834dbcb6ab0bbd6efece39.webp" alt="">
+                <div class="name">
+                    <div class="qq">
+                        
+                        <div>Name:</div><div class="one"></div><br>
+                </div>
+                <!-- <div>Company Name:</div><span class="two"></span><br> -->
+                <div class="ww">
+                    <div>Email:</div><div class="three"></div>
+
+                </div>
+                <!-- <div>Phone No:</div><span class="four"></span><br> -->
+            </div>
+            <ion-icon class="close-outline" onclick="userhide()" class="classout" name="close-outline"></ion-icon>
+    </div>
+    
+    
+        </div>
+        
+    </sectRegister>
+    <footer id="footer">
+        <h2>&bump; Created by jamsheed khan </h2>
+        <h2>Restraunt &copy; all rights reserved</h2>
+    </footer>
+       
+
+
+
+
+
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="module" src="app.js"></script>
+
+</html>
+
+</body>
+
+</html>

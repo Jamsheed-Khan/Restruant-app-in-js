@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    <h2>Welcome!</h2>
+                    <p>Login to you account.</p>
+                    <a href="../Register/register.html" class="btn">Admin register</a><br><br>
+                    <a href="../login/login.html" class="btn">Sign In</a>       
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Signup</h2>
+                    <div>
+                        <p>
+                            <label>Username<span>*</span></label>
+                            <input id="username" type="text" placeholder="Username" required>
+                        </p>
+                    
+                        <p>
+                            <label>Email address<span>*</span></label>
+                            <input id="Email" type="text" placeholder="Email address" required>
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input id="password" type="password" placeholder="Password" required>
+                        </p>
+                        <p>
+                            <!-- <button id="signupbtn">Sign up</button> -->
+                            <input id="signupbtn"   type="submit" value="Sign Up">
+                        </p>
+                        <p>
+                            <a href="">Forgot password?</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="module" src="app.js"></script>
+</html>
